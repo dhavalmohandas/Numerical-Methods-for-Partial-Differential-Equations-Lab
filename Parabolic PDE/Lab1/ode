@@ -1,0 +1,8 @@
+> f = inline('-50*y+51*cos(t)+49*sin(t)','t','y')
+
+f =
+
+     Inline function:
+     f(t,y) = -50*y+51*cos(t)+49*sin(t)
+
+>> ode23(f,[0,10],1)
